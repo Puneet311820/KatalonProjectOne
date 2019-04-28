@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite_One" time="3" tests="0" failures="0" errors="1">
+   <testsuite name="TestSuite_One" tests="0" failures="0" errors="1" time="3" timestamp="2019-04-28 15:24:45" hostname="PURU - PURU-PC" id="Test Suites/TestSuite_One">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="F:\\GIT\\KatalonProjectOne\\Reports\\TestSuite_One\\20190428_152427"/>
+         <property name="logFiles" value="F:\\GIT\\KatalonProjectOne\\Reports\\TestSuite_One\\20190428_152427\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PURU - PURU-PC"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+      </properties>
+      <testcase name="Test Cases/Login/Test_One" classname="Test Cases/Login/Test_One" status="ERROR">
+         <error type="ERROR" message="Test Cases/Login/Test_One has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist"/>
+         <system-out><![CDATA[2019-04-28 15:24:48 - [TEST_CASE][ERROR] - Test Cases/Login/Test_One: Test Cases/Login/Test_One has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+         <system-err><![CDATA[2019-04-28 15:24:48 - [TEST_CASE][ERROR] - Test Cases/Login/Test_One: Test Cases/Login/Test_One has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-28 15:24:45 - [TEST_SUITE][ERROR] - TestSuite_One: Test Cases/Login/Test_One has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-out>
+      <system-err><![CDATA[2019-04-28 15:24:45 - [TEST_SUITE][ERROR] - TestSuite_One: Test Cases/Login/Test_One has ERROR(s).
+Reason:
+java.io.FileNotFoundException: File '' does not exist]]></system-err>
+   </testsuite>
+</testsuites>
